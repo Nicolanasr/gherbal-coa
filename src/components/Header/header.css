@@ -1,0 +1,57 @@
+.header {
+  background: beige;
+  height: 80px;
+  padding: 1rem 0;
+  box-sizing: border-box;
+}
+
+.header nav {
+  height: 100%;
+}
+
+.header__nav {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__navitem {
+  margin: 0 1rem;
+}
+
+.header__language {
+  margin-left: auto;
+}
+
+.header__navitem a {
+  padding: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: var(--black);
+  text-decoration: none;
+  position: relative;
+  transition: color 350ms;
+}
+
+.header__navitem a:hover {
+  color: var(--black-10);
+}
+
+.header__navitem a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: var(--black);
+  height: 2px;
+  transition: width 350ms;
+}
+
+.header__navitem a:hover::after {
+  width: 100%;
+}

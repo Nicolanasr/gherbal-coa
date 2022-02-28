@@ -1,0 +1,31 @@
+.circular-card {
+  border-radius: 50%;
+  box-shadow: -3px 0 15px -6px rgb(121, 121, 121);
+  height: 220px;
+  width: 220px;
+  color: var(--black);
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.half-circle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 125px; /* as the half of the width */
+  height: 250px;
+  border: 15px solid;
+  border-top-right-radius: 265px;
+  border-bottom-right-radius: 265px;
+  transform: translate(15px, -50%);
+  border-left: 0;
+  z-index: -1;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

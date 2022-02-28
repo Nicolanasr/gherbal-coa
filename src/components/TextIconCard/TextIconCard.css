@@ -1,0 +1,33 @@
+.text-icon-card {
+  background: whitesmoke;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: box-shadow 350ms;
+}
+
+.text-icon-card:hover {
+  box-shadow: 3px 3px 15px 1px rgba(112, 112, 112, 0.2);
+}
+
+.text-icon-card__image {
+  height: 200px;
+}
+
+.text-icon-card__image img {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: contain;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.text-icon-card__body {
+  padding: 1rem;
+}

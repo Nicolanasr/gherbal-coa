@@ -1,0 +1,12 @@
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.about__card-wrapper {
+  flex: 1;
+  min-width: 300px;
+}
