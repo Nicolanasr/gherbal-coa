@@ -1,0 +1,33 @@
+.doa-section {
+  margin-top: 5rem;
+}
+
+.section__title {
+  color: var(--black);
+  position: relative;
+  width: fit-content;
+  padding-bottom: 0.5rem;
+}
+
+.section__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 80%;
+  background: #e08230;
+}
+
+.section__sub-title {
+  color: var(--black);
+  max-width: 700px;
+}
+
+.final-judgment__cards {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

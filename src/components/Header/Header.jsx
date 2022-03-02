@@ -23,7 +23,7 @@ const Header = () => {
               <Link to={"#contact-us"}>Contact</Link>
             </li>
             <li className="header__navitem header__language">
-              <Link to={""}>Arabic</Link>
+              <Link to={"/ar"}>{"Arabic"}</Link>
             </li>
           </ul>
         </Container>

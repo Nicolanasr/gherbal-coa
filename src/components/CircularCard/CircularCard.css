@@ -29,3 +29,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+.circular-card:hover .half-circle {
+  border-left: 15px solid;
+  width: 250px;
+  border-top-left-radius: 265px;
+  border-bottom-left-radius: 265px;
+}

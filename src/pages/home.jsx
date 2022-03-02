@@ -2,10 +2,11 @@ import React from "react";
 
 import Header from "../components/Header/Header";
 import HeroSection from "../components/PagesSection/HeroSection/HeroSection";
+import JurisdictionSection from "../components/PagesSection/JurisdictionSection/JurisdictionSection";
+import AppealDelaySection from "../components/PagesSection/AppealDelaySection/AppealDelaySection";
 import AboutSection from "../components/PagesSection/AboutSection/AboutSection";
 
 import "../styles/home.css";
-import JurisdictionSection from "../components/PagesSection/JurisdictionSection/JurisdictionSection";
 
 const heroData = {
   image: "https://www.independent.ie/incoming/6c5a7/37793084.ece/AUTOCROP/w1000/court.jpg",
@@ -36,9 +37,8 @@ const aboutData = [
   },
 ];
 
-const jurisdictionData = {};
-
-const Home = () => {
+const Home = (props) => {
+  console.log(props.lang);
   return (
     <div className="homepage">
       <Header />
@@ -53,6 +53,10 @@ const Home = () => {
 
       <section id="jurisdiction">
         <JurisdictionSection />
+      </section>
+
+      <section id="delay-of-appeal">
+        <AppealDelaySection />
       </section>
     </div>
   );
