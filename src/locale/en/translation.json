@@ -1,0 +1,25 @@
+{
+  "header": {
+    "languageSwitcherText": "Arabic",
+    "languageSwitcherLink": "ar"
+  },
+  "hero": {
+    "title": "Criminal Court of Appeal ",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis distinctio omnis voluptates enim deserunt eaque hic et quibusdam, maxime laudantium accusamus aliquid quis iusto dolore possimus rem soluta reiciendis ex.  "
+  },
+
+  "about": [
+    {
+      "image": "https://thumbs.dreamstime.com/b/court-building-scales-justice-flat-style-vector-illustration-82742671.jpg",
+      "text": "Within every governorate, there is one or more courts of appeal."
+    },
+    {
+      "image": "https://thumbs.dreamstime.com/b/judges-icon-judges-court-vector-icon-104760674.jpg",
+      "text": "The Court of Appeal consists of 3 judges: a president and two consultants."
+    },
+    {
+      "image": "https://media.istockphoto.com/vectors/isometric-male-judge-in-a-wig-with-a-hammer-law-and-justice-concept-vector-id882272844?k=6&m=882272844&s=612x612&w=0&h=QOiQ0nsybnSVR2OwhGWxJbSVcyY6vV0x0V2JmbEgRyw=",
+      "text": "The public prosecution is represented before the Court of Appeal by the Appellate Public Prosecutor or an Attorney General."
+    }
+  ]
+}

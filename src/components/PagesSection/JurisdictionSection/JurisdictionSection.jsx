@@ -66,7 +66,7 @@ const JurisdictionSection = (props) => {
           <div className="body2__data">
             {circularCardData.map((item, index) => {
               return (
-                <div className="body2__cardWrapper">
+                <div key={`${item}-${index}`} className="body2__cardWrapper">
                   <CircularCard {...item} />
                 </div>
               );

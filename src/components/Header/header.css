@@ -27,6 +27,11 @@
   margin-left: auto;
 }
 
+.ar .header__language {
+  margin-left: 0;
+  margin-right: auto;
+}
+
 .header__navitem a {
   padding: 0.5rem;
   font-weight: 500;

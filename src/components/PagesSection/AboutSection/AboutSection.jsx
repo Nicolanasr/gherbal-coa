@@ -11,7 +11,7 @@ const AboutSection = (props) => {
       <div className="about-section">
         {props.data.map((item, index) => {
           return (
-            <div className="about__card-wrapper" key={`${item.title_en}-${index}`}>
+            <div className="about__card-wrapper" key={`${item.text}-${index}`}>
               <TextIconCard {...item} />
             </div>
           );

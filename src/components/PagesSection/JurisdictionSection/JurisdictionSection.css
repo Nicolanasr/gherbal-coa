@@ -18,6 +18,10 @@
   width: 80%;
   background: #e08230;
 }
+.ar .section__title::after {
+  left: unset;
+  right: 0;
+}
 
 .jurisdiction__exception {
   font-size: 1.1em;
@@ -37,6 +41,12 @@
   width: 30px;
   left: -0.5rem;
   transform: translateX(-100%);
+}
+
+.ar .jurisdiction__bullet {
+  left: unset;
+  right: -0.5rem;
+  transform: translateX(100%);
 }
 
 .jurisdiction__bullet img {

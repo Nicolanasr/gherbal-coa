@@ -8,7 +8,7 @@ const TextIconCard = (props) => {
       <div className="text-icon-card__image">
         <img src={props.image} alt={props.image} srcSet="" />
       </div>
-      <div className="text-icon-card__body">{props.text_en}</div>
+      <div className="text-icon-card__body">{props.text}</div>
     </div>
   );
 };

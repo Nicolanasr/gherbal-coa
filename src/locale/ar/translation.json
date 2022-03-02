@@ -1,0 +1,25 @@
+{
+  "header": {
+    "languageSwitcherText": "English",
+    "languageSwitcherLink": "en"
+  },
+  "hero": {
+    "title": "محكمة الاستئناف الجزائية",
+    "text": "نوبيس المميز العام يندمج مع عدم القدرة على التحمل والهدوء ، وأكبر قدر من الاتهام السائل ، وهو أمر غير قابل للتحقيق."
+  },
+
+  "about": [
+    {
+      "image": "https://thumbs.dreamstime.com/b/court-building-scales-justice-flat-style-vector-illustration-82742671.jpg",
+      "text": "يوجد داخل كل محافظة محكمة استئناف واحدة أو أكثر."
+    },
+    {
+      "image": "https://thumbs.dreamstime.com/b/judges-icon-judges-court-vector-icon-104760674.jpg",
+      "text": "تتكون محكمة الاستئناف من 3 قضاة: رئيس ومستشاران."
+    },
+    {
+      "image": "https://media.istockphoto.com/vectors/isometric-male-judge-in-a-wig-with-a-hammer-law-and-justice-concept-vector-id882272844?k=6&m=882272844&s=612x612&w=0&h=QOiQ0nsybnSVR2OwhGWxJbSVcyY6vV0x0V2JmbEgRyw=",
+      "text": "يمثل النيابة العامة أمام محكمة الاستئناف النائب العام الاستئنافي أو النائب العام."
+    }
+  ]
+}
