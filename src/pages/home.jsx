@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Helmet } from "react-helmet";
+
 import Header from "../components/Header/Header";
 import HeroSection from "../components/PagesSection/HeroSection/HeroSection";
 import JurisdictionSection from "../components/PagesSection/JurisdictionSection/JurisdictionSection";
@@ -38,27 +40,47 @@ const aboutData = [
 ];
 
 const Home = (props) => {
-  console.log(props.lang);
   return (
-    <div className="homepage">
-      <Header />
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>My Title</title>
+        <title>Criminal Court of Appeal</title>
+        <meta name="title" content="Criminal Court of Appeal" />
+        <meta name="description" content="" />
 
-      <section id="hero">
-        <HeroSection {...heroData} />
-      </section>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gherbal-coa.vercel.app/" />
+        <meta property="og:title" content="Criminal Court of Appeal TITLE 123123" />
+        <meta property="og:description" content="Criminal Court of Appeal DESCRIOTION deasdfasdf 123123" />
+        <meta property="og:image" content="" />
 
-      <section id="about">
-        <AboutSection data={aboutData} />
-      </section>
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://gherbal-coa.vercel.app/" />
+        <meta property="twitter:title" content="Criminal Court of Appeal TITLE 123123" />
+        <meta property="twitter:description" content="Criminal Court of Appeal DESCRIOTION deasdfasdf 123123" />
+        <meta property="twitter:image" content="" />
+      </Helmet>
+      <div className="homepage">
+        <Header />
 
-      <section id="jurisdiction">
-        <JurisdictionSection />
-      </section>
+        <section id="hero">
+          <HeroSection {...heroData} />
+        </section>
 
-      <section id="delay-of-appeal">
-        <AppealDelaySection />
-      </section>
-    </div>
+        <section id="about">
+          <AboutSection data={aboutData} />
+        </section>
+
+        <section id="jurisdiction">
+          <JurisdictionSection />
+        </section>
+
+        <section id="delay-of-appeal">
+          <AppealDelaySection />
+        </section>
+      </div>
+    </>
   );
 };
 
